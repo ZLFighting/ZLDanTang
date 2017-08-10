@@ -1,0 +1,6 @@
+framework module Pods_ZLDanTang {
+  umbrella header "Pods-ZLDanTang-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -2,3 +2,22 @@
 练习 Swift -单糖项目
 
 仅仅为个人练习Swift3.0使用!!! 
+
+## 项目环境
+
+项目使用 cocoapods 来管理第三方库, 需要安装 cocoapods，安装方式教程:[CocoaPods-1.2.0安装及使用](http://www.jianshu.com/p/e76ce44f97cb)。
+
+- Xcode 8.3.3
+- Swift 3.0
+- iOS 8.0
+
+
+## 使用到的第三方库：
+
+1. Alamofire (4.3.0)  - 网络请求
+2. FDFullscreenPopGesture (1.1) - 侧滑手势
+3. Kingfisher (3.3.4) - 缓存图片
+4. SVProgressHUD (2.1.2) - 提示框
+5. SnapKit (3.1.2)  - 设置约束
+6. SwiftyJSON (3.1.4)  - 解析 JSON 数据
+
