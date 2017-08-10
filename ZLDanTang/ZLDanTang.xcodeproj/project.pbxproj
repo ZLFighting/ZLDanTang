@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		78C77B161F3C0927000ABEA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B151F3C0927000ABEA7 /* AppDelegate.swift */; };
-		78C77B181F3C0927000ABEA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B171F3C0927000ABEA7 /* ViewController.swift */; };
-		78C77B1B1F3C0927000ABEA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C77B191F3C0927000ABEA7 /* Main.storyboard */; };
 		78C77B1D1F3C0927000ABEA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C77B1C1F3C0927000ABEA7 /* Assets.xcassets */; };
-		78C77B201F3C0927000ABEA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C77B1E1F3C0927000ABEA7 /* LaunchScreen.storyboard */; };
 		78C77B2B1F3C0927000ABEA7 /* ZLDanTangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B2A1F3C0927000ABEA7 /* ZLDanTangTests.swift */; };
 		78C77B361F3C0927000ABEA7 /* ZLDanTangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B351F3C0927000ABEA7 /* ZLDanTangUITests.swift */; };
-		ADA9A3C2119810D4426F0DE0 /* Pods_ZLDanTang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867EA0158C3B5CEAF2240E9D /* Pods_ZLDanTang.framework */; };
+		78C77B611F3C35C1000ABEA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B551F3C35C1000ABEA7 /* AppDelegate.swift */; };
+		78C77B621F3C35C1000ABEA7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78C77B561F3C35C1000ABEA7 /* Info.plist */; };
+		78C77B691F3C39E5000ABEA7 /* ZLConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B681F3C39E5000ABEA7 /* ZLConst.swift */; };
+		78C77B6B1F3C3CAA000ABEA7 /* ZLTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B6A1F3C3CAA000ABEA7 /* ZLTabBarController.swift */; };
+		78C77B6D1F3C410E000ABEA7 /* ZLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B6C1F3C410E000ABEA7 /* ZLNavigationController.swift */; };
+		78C77B6F1F3C46E6000ABEA7 /* ZLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B6E1F3C46E6000ABEA7 /* ZLBaseViewController.swift */; };
+		78C77B711F3C48C2000ABEA7 /* ZLDanTangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B701F3C48C2000ABEA7 /* ZLDanTangViewController.swift */; };
+		78C77B731F3C493A000ABEA7 /* ZLProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B721F3C493A000ABEA7 /* ZLProductViewController.swift */; };
+		78C77B751F3C4959000ABEA7 /* ZLCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B741F3C4959000ABEA7 /* ZLCategoryViewController.swift */; };
+		78C77B771F3C4982000ABEA7 /* ZLMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B761F3C4982000ABEA7 /* ZLMeViewController.swift */; };
+		ADA9A3C2119810D4426F0DE0 /* Pods_ZLDanTang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867EA0158C3B5CEAF2240E9D /* Pods_ZLDanTang.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,20 +40,38 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		78C77B661F3C3621000ABEA7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		78C77B121F3C0927000ABEA7 /* ZLDanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLDanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		78C77B151F3C0927000ABEA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		78C77B171F3C0927000ABEA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		78C77B1A1F3C0927000ABEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78C77B1C1F3C0927000ABEA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		78C77B1F1F3C0927000ABEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		78C77B211F3C0927000ABEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78C77B261F3C0927000ABEA7 /* ZLDanTangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLDanTangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C77B2A1F3C0927000ABEA7 /* ZLDanTangTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLDanTangTests.swift; sourceTree = "<group>"; };
 		78C77B2C1F3C0927000ABEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78C77B311F3C0927000ABEA7 /* ZLDanTangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLDanTangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C77B351F3C0927000ABEA7 /* ZLDanTangUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZLDanTangUITests.swift; sourceTree = "<group>"; };
 		78C77B371F3C0927000ABEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C77B551F3C35C1000ABEA7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78C77B561F3C35C1000ABEA7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C77B681F3C39E5000ABEA7 /* ZLConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLConst.swift; sourceTree = "<group>"; };
+		78C77B6A1F3C3CAA000ABEA7 /* ZLTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLTabBarController.swift; sourceTree = "<group>"; };
+		78C77B6C1F3C410E000ABEA7 /* ZLNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLNavigationController.swift; sourceTree = "<group>"; };
+		78C77B6E1F3C46E6000ABEA7 /* ZLBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLBaseViewController.swift; sourceTree = "<group>"; };
+		78C77B701F3C48C2000ABEA7 /* ZLDanTangViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLDanTangViewController.swift; sourceTree = "<group>"; };
+		78C77B721F3C493A000ABEA7 /* ZLProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLProductViewController.swift; sourceTree = "<group>"; };
+		78C77B741F3C4959000ABEA7 /* ZLCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLCategoryViewController.swift; sourceTree = "<group>"; };
+		78C77B761F3C4982000ABEA7 /* ZLMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLMeViewController.swift; sourceTree = "<group>"; };
 		867EA0158C3B5CEAF2240E9D /* Pods_ZLDanTang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLDanTang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02C946CEA9E352BDBEE9DBD /* Pods-ZLDanTang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLDanTang.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLDanTang/Pods-ZLDanTang.release.xcconfig"; sourceTree = "<group>"; };
 		E60A6EFB168E6D47AC984566 /* Pods-ZLDanTang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLDanTang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLDanTang/Pods-ZLDanTang.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,12 +128,8 @@
 		78C77B141F3C0927000ABEA7 /* ZLDanTang */ = {
 			isa = PBXGroup;
 			children = (
-				78C77B151F3C0927000ABEA7 /* AppDelegate.swift */,
-				78C77B171F3C0927000ABEA7 /* ViewController.swift */,
-				78C77B191F3C0927000ABEA7 /* Main.storyboard */,
+				78C77B431F3C35C1000ABEA7 /* Classes */,
 				78C77B1C1F3C0927000ABEA7 /* Assets.xcassets */,
-				78C77B1E1F3C0927000ABEA7 /* LaunchScreen.storyboard */,
-				78C77B211F3C0927000ABEA7 /* Info.plist */,
 			);
 			path = ZLDanTang;
 			sourceTree = "<group>";
@@ -130,6 +150,247 @@
 				78C77B371F3C0927000ABEA7 /* Info.plist */,
 			);
 			path = ZLDanTangUITests;
+			sourceTree = "<group>";
+		};
+		78C77B431F3C35C1000ABEA7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				78C77B501F3C35C1000ABEA7 /* Main(主要) */,
+				78C77B4C1F3C35C1000ABEA7 /* Login&Register(注册&登录) */,
+				78C77B481F3C35C1000ABEA7 /* DanTang(单糖) */,
+				78C77B5D1F3C35C1000ABEA7 /* Product(单品) */,
+				78C77B441F3C35C1000ABEA7 /* Classify(分类) */,
+				78C77B591F3C35C1000ABEA7 /* Me(我的) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		78C77B441F3C35C1000ABEA7 /* Classify(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				78C77B451F3C35C1000ABEA7 /* Controller */,
+				78C77B461F3C35C1000ABEA7 /* Model */,
+				78C77B471F3C35C1000ABEA7 /* View */,
+			);
+			path = "Classify(分类)";
+			sourceTree = "<group>";
+		};
+		78C77B451F3C35C1000ABEA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78C77B741F3C4959000ABEA7 /* ZLCategoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78C77B461F3C35C1000ABEA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78C77B471F3C35C1000ABEA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78C77B481F3C35C1000ABEA7 /* DanTang(单糖) */ = {
+			isa = PBXGroup;
+			children = (
+				78C77B491F3C35C1000ABEA7 /* Controller */,
+				78C77B4A1F3C35C1000ABEA7 /* Model */,
+				78C77B4B1F3C35C1000ABEA7 /* View */,
+			);
+			path = "DanTang(单糖)";
+			sourceTree = "<group>";
+		};
+		78C77B491F3C35C1000ABEA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78C77B701F3C48C2000ABEA7 /* ZLDanTangViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78C77B4A1F3C35C1000ABEA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78C77B4B1F3C35C1000ABEA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78C77B4C1F3C35C1000ABEA7 /* Login&Register(注册&登录) */ = {
+			isa = PBXGroup;
+			children = (
+				78C77B4D1F3C35C1000ABEA7 /* Controller */,
+				78C77B4E1F3C35C1000ABEA7 /* Model */,
+				78C77B4F1F3C35C1000ABEA7 /* View */,
+			);
+			path = "Login&Register(注册&登录)";
+			sourceTree = "<group>";
+		};
+		78C77B4D1F3C35C1000ABEA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78C77B4E1F3C35C1000ABEA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78C77B4F1F3C35C1000ABEA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78C77B501F3C35C1000ABEA7 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				78C77B521F3C35C1000ABEA7 /* Controller */,
+				78C77B581F3C35C1000ABEA7 /* View */,
+				78C77B531F3C35C1000ABEA7 /* Model */,
+				78C77B541F3C35C1000ABEA7 /* Others */,
+				78C77B571F3C35C1000ABEA7 /* Tool */,
+				78C77B511F3C35C1000ABEA7 /* Category */,
+				78C77B671F3C3779000ABEA7 /* Public */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		78C77B511F3C35C1000ABEA7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		78C77B521F3C35C1000ABEA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78C77B6A1F3C3CAA000ABEA7 /* ZLTabBarController.swift */,
+				78C77B6C1F3C410E000ABEA7 /* ZLNavigationController.swift */,
+				78C77B6E1F3C46E6000ABEA7 /* ZLBaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78C77B531F3C35C1000ABEA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78C77B541F3C35C1000ABEA7 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				78C77B551F3C35C1000ABEA7 /* AppDelegate.swift */,
+				78C77B561F3C35C1000ABEA7 /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		78C77B571F3C35C1000ABEA7 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				78C77B681F3C39E5000ABEA7 /* ZLConst.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		78C77B581F3C35C1000ABEA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78C77B591F3C35C1000ABEA7 /* Me(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				78C77B5A1F3C35C1000ABEA7 /* Controller */,
+				78C77B5B1F3C35C1000ABEA7 /* Model */,
+				78C77B5C1F3C35C1000ABEA7 /* View */,
+			);
+			path = "Me(我的)";
+			sourceTree = "<group>";
+		};
+		78C77B5A1F3C35C1000ABEA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78C77B761F3C4982000ABEA7 /* ZLMeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78C77B5B1F3C35C1000ABEA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78C77B5C1F3C35C1000ABEA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78C77B5D1F3C35C1000ABEA7 /* Product(单品) */ = {
+			isa = PBXGroup;
+			children = (
+				78C77B5E1F3C35C1000ABEA7 /* Controller */,
+				78C77B5F1F3C35C1000ABEA7 /* Model */,
+				78C77B601F3C35C1000ABEA7 /* View */,
+			);
+			path = "Product(单品)";
+			sourceTree = "<group>";
+		};
+		78C77B5E1F3C35C1000ABEA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78C77B721F3C493A000ABEA7 /* ZLProductViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		78C77B5F1F3C35C1000ABEA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78C77B601F3C35C1000ABEA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78C77B671F3C3779000ABEA7 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
 			sourceTree = "<group>";
 		};
 		830FDD75C34943A274FCD751 /* Frameworks */ = {
@@ -162,6 +423,7 @@
 				78C77B101F3C0927000ABEA7 /* Resources */,
 				95330DCCFB58709E1F635C66 /* [CP] Embed Pods Frameworks */,
 				649C094A143B3964DBBA3E03 /* [CP] Copy Pods Resources */,
+				78C77B661F3C3621000ABEA7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,6 +476,7 @@
 		78C77B0A1F3C0927000ABEA7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZL;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = zhangli;
@@ -262,9 +525,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78C77B201F3C0927000ABEA7 /* LaunchScreen.storyboard in Resources */,
+				78C77B621F3C35C1000ABEA7 /* Info.plist in Resources */,
 				78C77B1D1F3C0927000ABEA7 /* Assets.xcassets in Resources */,
-				78C77B1B1F3C0927000ABEA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,8 +599,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78C77B181F3C0927000ABEA7 /* ViewController.swift in Sources */,
-				78C77B161F3C0927000ABEA7 /* AppDelegate.swift in Sources */,
+				78C77B771F3C4982000ABEA7 /* ZLMeViewController.swift in Sources */,
+				78C77B6F1F3C46E6000ABEA7 /* ZLBaseViewController.swift in Sources */,
+				78C77B731F3C493A000ABEA7 /* ZLProductViewController.swift in Sources */,
+				78C77B611F3C35C1000ABEA7 /* AppDelegate.swift in Sources */,
+				78C77B711F3C48C2000ABEA7 /* ZLDanTangViewController.swift in Sources */,
+				78C77B751F3C4959000ABEA7 /* ZLCategoryViewController.swift in Sources */,
+				78C77B6D1F3C410E000ABEA7 /* ZLNavigationController.swift in Sources */,
+				78C77B691F3C39E5000ABEA7 /* ZLConst.swift in Sources */,
+				78C77B6B1F3C3CAA000ABEA7 /* ZLTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,25 +641,6 @@
 			targetProxy = 78C77B321F3C0927000ABEA7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		78C77B191F3C0927000ABEA7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78C77B1A1F3C0927000ABEA7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		78C77B1E1F3C0927000ABEA7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78C77B1F1F3C0927000ABEA7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		78C77B381F3C0927000ABEA7 /* Debug */ = {
@@ -491,8 +741,9 @@
 			baseConfigurationReference = E60A6EFB168E6D47AC984566 /* Pods-ZLDanTang.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7734U6Q8V5;
-				INFOPLIST_FILE = ZLDanTang/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ZLDanTang/Classes/Main(主要)/Others/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.ZLDanTang;
@@ -506,8 +757,9 @@
 			baseConfigurationReference = B02C946CEA9E352BDBEE9DBD /* Pods-ZLDanTang.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 7734U6Q8V5;
-				INFOPLIST_FILE = ZLDanTang/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ZLDanTang/Classes/Main(主要)/Others/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangli.ZLDanTang;
@@ -593,6 +845,7 @@
 				78C77B3C1F3C0927000ABEA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78C77B3D1F3C0927000ABEA7 /* Build configuration list for PBXNativeTarget "ZLDanTangTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +854,7 @@
 				78C77B3F1F3C0927000ABEA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78C77B401F3C0927000ABEA7 /* Build configuration list for PBXNativeTarget "ZLDanTangUITests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +863,7 @@
 				78C77B421F3C0927000ABEA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
