@@ -36,6 +36,8 @@
   - ZLConst.swift 
 - Login&Register（登录和注册）
  - Controller
+  - ZLLoginViewController.swift 登录控制器
+  - ZLLoginViewController.xib
  - View
  - Model
 - 首页（单糖）
@@ -57,6 +59,8 @@
  - Controller
   - ZLMeViewController.swift 我的界面
  - View
+  - ZLMineHeaderView.swift 我的界面下 头部视图
+  - ZLMeFooterView.swift 我的界面下 底部视图
  - Model
 
 随着练习进度增加内容 

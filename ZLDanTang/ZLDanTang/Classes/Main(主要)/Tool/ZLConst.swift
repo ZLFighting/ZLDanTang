@@ -27,6 +27,16 @@ let BASE_URL = "" // 测试地址
 //*　-----------------------------------　*//
 
 
+enum ZLOtherLoginBtnType: Int {
+    /// 微博
+    case weiboLogin = 100
+    /// 微信
+    case weChatLogin = 101
+    /// QQ
+    case QQLogin = 102
+}
+
+
 // 第一次启动
 let ZLFirstLaunch = "firstLaunch"
 // 是否登录
@@ -50,6 +60,13 @@ let isIPhone5 = UI_View_Height == 568 ? true : false
 let isIPhone6 = UI_View_Height == 667 ? true : false
 // iPhone 6P
 let isIPhone6P = UI_View_Height == 736 ? true : false
+
+
+// 间距
+let kMargin: CGFloat = 10.0
+
+// 我的界面头部图像的高度
+let ZLMineHeaderImageHeight: CGFloat = 200
 
 
 

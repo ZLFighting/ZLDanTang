@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78B6468E1F419428000DB467 /* ZLLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B6468C1F419428000DB467 /* ZLLoginViewController.swift */; };
+		78B6468F1F419428000DB467 /* ZLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78B6468D1F419428000DB467 /* ZLLoginViewController.xib */; };
+		78B646911F419AB4000DB467 /* ZLMineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B646901F419AB4000DB467 /* ZLMineHeaderView.swift */; };
+		78B646931F419BA3000DB467 /* ZLMeFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B646921F419BA3000DB467 /* ZLMeFooterView.swift */; };
 		78C77B1D1F3C0927000ABEA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C77B1C1F3C0927000ABEA7 /* Assets.xcassets */; };
 		78C77B2B1F3C0927000ABEA7 /* ZLDanTangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B2A1F3C0927000ABEA7 /* ZLDanTangTests.swift */; };
 		78C77B361F3C0927000ABEA7 /* ZLDanTangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B351F3C0927000ABEA7 /* ZLDanTangUITests.swift */; };
@@ -56,6 +60,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		78B6468C1F419428000DB467 /* ZLLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLLoginViewController.swift; sourceTree = "<group>"; };
+		78B6468D1F419428000DB467 /* ZLLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLLoginViewController.xib; sourceTree = "<group>"; };
+		78B646901F419AB4000DB467 /* ZLMineHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLMineHeaderView.swift; sourceTree = "<group>"; };
+		78B646921F419BA3000DB467 /* ZLMeFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLMeFooterView.swift; sourceTree = "<group>"; };
 		78C77B121F3C0927000ABEA7 /* ZLDanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLDanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C77B1C1F3C0927000ABEA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78C77B261F3C0927000ABEA7 /* ZLDanTangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLDanTangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -246,6 +254,8 @@
 		78C77B4D1F3C35C1000ABEA7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				78B6468C1F419428000DB467 /* ZLLoginViewController.swift */,
+				78B6468D1F419428000DB467 /* ZLLoginViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -356,6 +366,8 @@
 		78C77B5C1F3C35C1000ABEA7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				78B646901F419AB4000DB467 /* ZLMineHeaderView.swift */,
+				78B646921F419BA3000DB467 /* ZLMeFooterView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -534,6 +546,7 @@
 			files = (
 				78C77B621F3C35C1000ABEA7 /* Info.plist in Resources */,
 				78C77B1D1F3C0927000ABEA7 /* Assets.xcassets in Resources */,
+				78B6468F1F419428000DB467 /* ZLLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +619,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78B6468E1F419428000DB467 /* ZLLoginViewController.swift in Sources */,
 				78C77B7E1F3C5E87000ABEA7 /* UIView+Extension.swift in Sources */,
 				78C77B791F3C510A000ABEA7 /* ZLNewFeatureViewController.swift in Sources */,
 				78C77B771F3C4982000ABEA7 /* ZLMeViewController.swift in Sources */,
@@ -614,8 +628,10 @@
 				78C77B611F3C35C1000ABEA7 /* AppDelegate.swift in Sources */,
 				78C77B711F3C48C2000ABEA7 /* ZLDanTangViewController.swift in Sources */,
 				78C77B751F3C4959000ABEA7 /* ZLCategoryViewController.swift in Sources */,
+				78B646931F419BA3000DB467 /* ZLMeFooterView.swift in Sources */,
 				78C77B6D1F3C410E000ABEA7 /* ZLNavigationController.swift in Sources */,
 				78C77B691F3C39E5000ABEA7 /* ZLConst.swift in Sources */,
+				78B646911F419AB4000DB467 /* ZLMineHeaderView.swift in Sources */,
 				78C77B6B1F3C3CAA000ABEA7 /* ZLTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
