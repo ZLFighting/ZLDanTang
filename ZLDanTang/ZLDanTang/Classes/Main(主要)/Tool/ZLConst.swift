@@ -40,16 +40,16 @@ let isLogin = "isLogin"
 
 // 设置尺寸
 // 屏幕的宽
-let SCREENW = UIScreen.main.bounds.size.width
+let UI_View_Width = UIScreen.main.bounds.size.width
 // 屏幕的高
-let SCREENH = UIScreen.main.bounds.size.height
+let UI_View_Height = UIScreen.main.bounds.size.height
     
 // iPhone 5
-let isIPhone5 = SCREENH == 568 ? true : false
+let isIPhone5 = UI_View_Height == 568 ? true : false
 // iPhone 6
-let isIPhone6 = SCREENH == 667 ? true : false
+let isIPhone6 = UI_View_Height == 667 ? true : false
 // iPhone 6P
-let isIPhone6P = SCREENH == 736 ? true : false
+let isIPhone6P = UI_View_Height == 736 ? true : false
 
 
 

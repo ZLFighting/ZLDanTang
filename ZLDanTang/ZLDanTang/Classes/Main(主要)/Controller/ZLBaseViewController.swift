@@ -15,6 +15,7 @@ class ZLBaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // 设置背景色 及 导航标题栏
         view.backgroundColor = ZLGlobalColor()
         navigationController?.fd_prefersNavigationBarHidden = true
         
@@ -29,15 +30,4 @@ class ZLBaseViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

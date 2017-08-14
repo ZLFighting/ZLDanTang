@@ -40,6 +40,7 @@ class ZLTabBarController: UITabBarController {
         childController.tabBarItem.selectedImage = UIImage(named: imageName + "selected")
         childController.title = title
         
+        // 包装一个导航控制器, 添加导航控制器为tabbarcontroller的子控制器
         let navC = ZLNavigationController(rootViewController: childController)
         addChildViewController(navC)
     }

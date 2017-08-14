@@ -21,3 +21,46 @@
 5. SnapKit (3.1.2)  - 设置约束
 6. SwiftyJSON (3.1.4)  - 解析 JSON 数据
 
+
+由于刚接触 Swift，项目采用传统的 MVC 设计模式。
+
+
+## 下面是项目的初始框架结构
+
+- Main（主要）
+ - Controller
+  - ZLTabBarController.swift 自定义初始化底部子控制器
+  - ZLNavigationController.swift nav控制器 NavigationController
+  - ZLBaseViewController.swift  基类控制器
+ - Tools
+  - ZLConst.swift 
+- Login&Register（登录和注册）
+ - Controller
+ - View
+ - Model
+- 首页（单糖）
+ - Controller
+  - ZLDanTangViewController.swift 单糖界面
+ - View
+ - Model
+- Product（单品）
+ - Controller
+  - ZLProductViewController.swift 单品界面
+ - View
+ - Model
+- Classify（分类）
+ - Controller
+  - ZLCategoryViewController.swift 分类界面
+ - View
+ - Model
+- Me（我）
+ - Controller
+  - ZLMeViewController.swift 我的界面
+ - View
+ - Model
+
+随着练习进度增加内容 
+
+
+
+
