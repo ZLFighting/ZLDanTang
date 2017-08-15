@@ -13,6 +13,7 @@
 		78B646931F419BA3000DB467 /* ZLMeFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B646921F419BA3000DB467 /* ZLMeFooterView.swift */; };
 		78B646961F4292EA000DB467 /* ZLRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B646941F4292EA000DB467 /* ZLRegisterViewController.swift */; };
 		78B646971F4292EA000DB467 /* ZLRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78B646951F4292EA000DB467 /* ZLRegisterViewController.xib */; };
+		78B646991F42EED2000DB467 /* ZLMeChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B646981F42EED2000DB467 /* ZLMeChoiceView.swift */; };
 		78C77B1D1F3C0927000ABEA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C77B1C1F3C0927000ABEA7 /* Assets.xcassets */; };
 		78C77B2B1F3C0927000ABEA7 /* ZLDanTangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B2A1F3C0927000ABEA7 /* ZLDanTangTests.swift */; };
 		78C77B361F3C0927000ABEA7 /* ZLDanTangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B351F3C0927000ABEA7 /* ZLDanTangUITests.swift */; };
@@ -68,6 +69,7 @@
 		78B646921F419BA3000DB467 /* ZLMeFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLMeFooterView.swift; sourceTree = "<group>"; };
 		78B646941F4292EA000DB467 /* ZLRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLRegisterViewController.swift; sourceTree = "<group>"; };
 		78B646951F4292EA000DB467 /* ZLRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLRegisterViewController.xib; sourceTree = "<group>"; };
+		78B646981F42EED2000DB467 /* ZLMeChoiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLMeChoiceView.swift; sourceTree = "<group>"; };
 		78C77B121F3C0927000ABEA7 /* ZLDanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLDanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C77B1C1F3C0927000ABEA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78C77B261F3C0927000ABEA7 /* ZLDanTangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLDanTangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -374,6 +376,7 @@
 			children = (
 				78B646901F419AB4000DB467 /* ZLMineHeaderView.swift */,
 				78B646921F419BA3000DB467 /* ZLMeFooterView.swift */,
+				78B646981F42EED2000DB467 /* ZLMeChoiceView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -639,6 +642,7 @@
 				78B646931F419BA3000DB467 /* ZLMeFooterView.swift in Sources */,
 				78C77B6D1F3C410E000ABEA7 /* ZLNavigationController.swift in Sources */,
 				78C77B691F3C39E5000ABEA7 /* ZLConst.swift in Sources */,
+				78B646991F42EED2000DB467 /* ZLMeChoiceView.swift in Sources */,
 				78B646911F419AB4000DB467 /* ZLMineHeaderView.swift in Sources */,
 				78C77B6B1F3C3CAA000ABEA7 /* ZLTabBarController.swift in Sources */,
 			);

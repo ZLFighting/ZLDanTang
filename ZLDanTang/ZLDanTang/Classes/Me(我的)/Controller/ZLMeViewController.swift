@@ -23,7 +23,7 @@ class ZLMeViewController: ZLBaseViewController , UITableViewDataSource, UITableV
         setupTableView()
     }
     
-    // 创建 tableView
+    // MARK: - 创建 tableView
     private func setupTableView() {
         let tableView = UITableView()
         tableView.frame = view.bounds
@@ -35,9 +35,10 @@ class ZLMeViewController: ZLBaseViewController , UITableViewDataSource, UITableV
         tableView.tableFooterView = footerView
     }
     
+    // MARK: - headerView
     private lazy var headerView: ZLMineHeaderView = {
         let headerView = ZLMineHeaderView()
-        headerView.frame = CGRect(x: 0, y: 0, width: UI_View_Width, height: ZLMineHeaderImageHeight)
+        headerView.frame = CGRect(x: 0, y: 0, width: UI_View_Width, height: kMineHeaderImageHeight)
         // 添加点击事件
         headerView.iconButton.addTarget(self, action: #selector(iconButtonClick), for: .touchUpInside)
         headerView.messageButton.addTarget(self, action: #selector(messageButtonClick), for: .touchUpInside)
@@ -45,7 +46,7 @@ class ZLMeViewController: ZLBaseViewController , UITableViewDataSource, UITableV
         return headerView
     }()
     
-    // MARK: - 头部按钮点击
+    // MARK: 头部按钮点击
     func iconButtonClick() {
         // 判断是否登录
         if UserDefaults.standard.bool(forKey: isLogin) {
@@ -77,18 +78,26 @@ class ZLMeViewController: ZLBaseViewController , UITableViewDataSource, UITableV
         print("点击了设置")
     }
     
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 44
+    }
+    
+    // MARK: - 底部
     private lazy var footerView: ZLMeFooterView = {
         let footerView = ZLMeFooterView(frame: CGRect(x: 0, y: 0, width: UI_View_Width, height: 200))
         return footerView
     }()
     
+    // MARK: - 分区header
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let choiceView = ZLMeChoiceView()
+
+        return choiceView
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 44
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -99,4 +108,15 @@ class ZLMeViewController: ZLBaseViewController , UITableViewDataSource, UITableV
         let cell = UITableViewCell(style: .default, reuseIdentifier: "cell")
         return cell
     }
+    
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let offsetY = scrollView.contentOffset.y
+        if offsetY < 0 {
+            var tempFrame = headerView.bgImageView.frame
+            tempFrame.origin.y = offsetY
+            tempFrame.size.height = kMineHeaderImageHeight - offsetY
+            headerView.bgImageView.frame = tempFrame
+        }
+    }
+
 }

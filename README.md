@@ -1,7 +1,7 @@
 # ZLDanTang
 练习 Swift -单糖项目
 
-仅仅为个人练习Swift3.0使用!!! 
+仅仅为个人练习Swift3.0使用!!!  
 
 ## 项目环境
 
@@ -21,11 +21,11 @@
 5. SnapKit (3.1.2)  - 设置约束
 6. SwiftyJSON (3.1.4)  - 解析 JSON 数据
 
-
 由于刚接触 Swift，项目采用传统的 MVC 设计模式。
 
+## 随着练习进度增加内容
 
-## 下面是项目的初始框架结构
+## 下面是项目的目前初始框架结构
 
 - Main（主要）
  - Controller
@@ -64,9 +64,10 @@
  - View
   - ZLMineHeaderView.swift 我的界面下 头部视图
   - ZLMeFooterView.swift 我的界面下 底部视图
+  - ZLMeChoiceView.swift 我的界面下 分区头喜欢视图(两个按钮分段控件)
  - Model
 
-随着练习进度增加内容 
+ 
 
 
 
