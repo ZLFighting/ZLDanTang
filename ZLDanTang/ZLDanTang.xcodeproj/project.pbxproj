@@ -11,6 +11,8 @@
 		78B6468F1F419428000DB467 /* ZLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78B6468D1F419428000DB467 /* ZLLoginViewController.xib */; };
 		78B646911F419AB4000DB467 /* ZLMineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B646901F419AB4000DB467 /* ZLMineHeaderView.swift */; };
 		78B646931F419BA3000DB467 /* ZLMeFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B646921F419BA3000DB467 /* ZLMeFooterView.swift */; };
+		78B646961F4292EA000DB467 /* ZLRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B646941F4292EA000DB467 /* ZLRegisterViewController.swift */; };
+		78B646971F4292EA000DB467 /* ZLRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78B646951F4292EA000DB467 /* ZLRegisterViewController.xib */; };
 		78C77B1D1F3C0927000ABEA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C77B1C1F3C0927000ABEA7 /* Assets.xcassets */; };
 		78C77B2B1F3C0927000ABEA7 /* ZLDanTangTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B2A1F3C0927000ABEA7 /* ZLDanTangTests.swift */; };
 		78C77B361F3C0927000ABEA7 /* ZLDanTangUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C77B351F3C0927000ABEA7 /* ZLDanTangUITests.swift */; };
@@ -64,6 +66,8 @@
 		78B6468D1F419428000DB467 /* ZLLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLLoginViewController.xib; sourceTree = "<group>"; };
 		78B646901F419AB4000DB467 /* ZLMineHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLMineHeaderView.swift; sourceTree = "<group>"; };
 		78B646921F419BA3000DB467 /* ZLMeFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLMeFooterView.swift; sourceTree = "<group>"; };
+		78B646941F4292EA000DB467 /* ZLRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLRegisterViewController.swift; sourceTree = "<group>"; };
+		78B646951F4292EA000DB467 /* ZLRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLRegisterViewController.xib; sourceTree = "<group>"; };
 		78C77B121F3C0927000ABEA7 /* ZLDanTang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLDanTang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78C77B1C1F3C0927000ABEA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78C77B261F3C0927000ABEA7 /* ZLDanTangTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLDanTangTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -256,6 +260,8 @@
 			children = (
 				78B6468C1F419428000DB467 /* ZLLoginViewController.swift */,
 				78B6468D1F419428000DB467 /* ZLLoginViewController.xib */,
+				78B646941F4292EA000DB467 /* ZLRegisterViewController.swift */,
+				78B646951F4292EA000DB467 /* ZLRegisterViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -547,6 +553,7 @@
 				78C77B621F3C35C1000ABEA7 /* Info.plist in Resources */,
 				78C77B1D1F3C0927000ABEA7 /* Assets.xcassets in Resources */,
 				78B6468F1F419428000DB467 /* ZLLoginViewController.xib in Resources */,
+				78B646971F4292EA000DB467 /* ZLRegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,6 +626,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78B646961F4292EA000DB467 /* ZLRegisterViewController.swift in Sources */,
 				78B6468E1F419428000DB467 /* ZLLoginViewController.swift in Sources */,
 				78C77B7E1F3C5E87000ABEA7 /* UIView+Extension.swift in Sources */,
 				78C77B791F3C510A000ABEA7 /* ZLNewFeatureViewController.swift in Sources */,

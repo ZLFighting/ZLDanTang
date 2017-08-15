@@ -58,7 +58,10 @@ class ZLLoginViewController: ZLBaseViewController {
     }
     // 注册按钮点击
     func registerBtnClick() {
-        print("点击了注册按钮")
+        // 跳转注册控制器
+        let registerVC = ZLRegisterViewController()
+        registerVC.title = "注册"
+        navigationController?.pushViewController(registerVC, animated: true)
     }
     
     // - 其他社交账号登录

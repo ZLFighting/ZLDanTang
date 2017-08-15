@@ -38,6 +38,7 @@ class ZLMeViewController: ZLBaseViewController , UITableViewDataSource, UITableV
     private lazy var headerView: ZLMineHeaderView = {
         let headerView = ZLMineHeaderView()
         headerView.frame = CGRect(x: 0, y: 0, width: UI_View_Width, height: ZLMineHeaderImageHeight)
+        // 添加点击事件
         headerView.iconButton.addTarget(self, action: #selector(iconButtonClick), for: .touchUpInside)
         headerView.messageButton.addTarget(self, action: #selector(messageButtonClick), for: .touchUpInside)
         headerView.settingButton.addTarget(self, action: #selector(settingButtonClick), for: .touchUpInside)

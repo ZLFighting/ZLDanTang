@@ -32,12 +32,15 @@
   - ZLTabBarController.swift 自定义初始化底部子控制器
   - ZLNavigationController.swift nav控制器 NavigationController
   - ZLBaseViewController.swift  基类控制器
+  - ZLNewFeatureViewController.swift  新特性(引导页)
  - Tools
   - ZLConst.swift 
 - Login&Register（登录和注册）
  - Controller
   - ZLLoginViewController.swift 登录控制器
   - ZLLoginViewController.xib
+  - ZLRegisterViewController.swift 注册控制器
+  - ZLRegisterViewController.xib
  - View
  - Model
 - 首页（单糖）
