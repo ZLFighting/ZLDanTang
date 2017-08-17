@@ -71,7 +71,9 @@ class ZLMeViewController: ZLBaseViewController , UITableViewDataSource, UITableV
     }
     
     func messageButtonClick() { // 消息
-        print("点击了消息")
+        let messageVC = ZLMessageViewController()
+        messageVC.title = "消息"
+        navigationController?.pushViewController(messageVC, animated: true)
     }
     
     func settingButtonClick() { // 设置
