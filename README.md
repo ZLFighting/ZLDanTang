@@ -61,11 +61,16 @@
 - Me（我）
  - Controller
   - ZLMeViewController.swift 我的界面
+  - ZLMessageViewController.swift  消息控制器
+  - ZLSettingViewController.swift  设置控制器
  - View
   - ZLMineHeaderView.swift 我的界面下 头部视图
   - ZLMeFooterView.swift 我的界面下 底部视图
   - ZLMeChoiceView.swift 我的界面下 分区头喜欢视图(两个按钮分段控件)
+  - ZLSettingCell.swift 设置cell
+  - ZLSettingCell.xib  
  - Model
+  - ZLSettingModel.swift 设置模型
 
  
 

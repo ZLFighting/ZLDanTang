@@ -77,7 +77,9 @@ class ZLMeViewController: ZLBaseViewController , UITableViewDataSource, UITableV
     }
     
     func settingButtonClick() { // 设置
-        print("点击了设置")
+        let settingVC = ZLSettingViewController()
+        settingVC.title = "设置"
+        navigationController?.pushViewController(settingVC, animated: true)
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {

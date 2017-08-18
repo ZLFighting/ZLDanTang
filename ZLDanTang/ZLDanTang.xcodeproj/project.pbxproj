@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7820D8241F459DFA00E757F5 /* ZLSettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7820D8231F459DFA00E757F5 /* ZLSettingModel.swift */; };
+		7820D8291F468B1100E757F5 /* ZLSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7820D8271F468B1100E757F5 /* ZLSettingCell.swift */; };
+		7820D82A1F468B1100E757F5 /* ZLSettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7820D8281F468B1100E757F5 /* ZLSettingCell.xib */; };
+		7820D82C1F468BF000E757F5 /* ZLSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7820D82B1F468BF000E757F5 /* ZLSettingViewController.swift */; };
+		7820D82E1F468DDE00E757F5 /* SettingCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7820D82D1F468DDE00E757F5 /* SettingCell.plist */; };
 		78B6468E1F419428000DB467 /* ZLLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B6468C1F419428000DB467 /* ZLLoginViewController.swift */; };
 		78B6468F1F419428000DB467 /* ZLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78B6468D1F419428000DB467 /* ZLLoginViewController.xib */; };
 		78B646911F419AB4000DB467 /* ZLMineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B646901F419AB4000DB467 /* ZLMineHeaderView.swift */; };
@@ -64,6 +69,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7820D8231F459DFA00E757F5 /* ZLSettingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLSettingModel.swift; sourceTree = "<group>"; };
+		7820D8271F468B1100E757F5 /* ZLSettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLSettingCell.swift; sourceTree = "<group>"; };
+		7820D8281F468B1100E757F5 /* ZLSettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLSettingCell.xib; sourceTree = "<group>"; };
+		7820D82B1F468BF000E757F5 /* ZLSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLSettingViewController.swift; sourceTree = "<group>"; };
+		7820D82D1F468DDE00E757F5 /* SettingCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SettingCell.plist; sourceTree = "<group>"; };
 		78B6468C1F419428000DB467 /* ZLLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLLoginViewController.swift; sourceTree = "<group>"; };
 		78B6468D1F419428000DB467 /* ZLLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLLoginViewController.xib; sourceTree = "<group>"; };
 		78B646901F419AB4000DB467 /* ZLMineHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLMineHeaderView.swift; sourceTree = "<group>"; };
@@ -329,6 +339,7 @@
 			children = (
 				78C77B551F3C35C1000ABEA7 /* AppDelegate.swift */,
 				78C77B561F3C35C1000ABEA7 /* Info.plist */,
+				7820D82D1F468DDE00E757F5 /* SettingCell.plist */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -363,6 +374,7 @@
 			children = (
 				78C77B761F3C4982000ABEA7 /* ZLMeViewController.swift */,
 				78B6469A1F43EBDB000DB467 /* ZLMessageViewController.swift */,
+				7820D82B1F468BF000E757F5 /* ZLSettingViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -370,6 +382,7 @@
 		78C77B5B1F3C35C1000ABEA7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7820D8231F459DFA00E757F5 /* ZLSettingModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -380,6 +393,8 @@
 				78B646901F419AB4000DB467 /* ZLMineHeaderView.swift */,
 				78B646921F419BA3000DB467 /* ZLMeFooterView.swift */,
 				78B646981F42EED2000DB467 /* ZLMeChoiceView.swift */,
+				7820D8271F468B1100E757F5 /* ZLSettingCell.swift */,
+				7820D8281F468B1100E757F5 /* ZLSettingCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -557,9 +572,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				78C77B621F3C35C1000ABEA7 /* Info.plist in Resources */,
+				7820D82A1F468B1100E757F5 /* ZLSettingCell.xib in Resources */,
 				78C77B1D1F3C0927000ABEA7 /* Assets.xcassets in Resources */,
 				78B6468F1F419428000DB467 /* ZLLoginViewController.xib in Resources */,
 				78B646971F4292EA000DB467 /* ZLRegisterViewController.xib in Resources */,
+				7820D82E1F468DDE00E757F5 /* SettingCell.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,6 +653,7 @@
 				78B6468E1F419428000DB467 /* ZLLoginViewController.swift in Sources */,
 				78C77B7E1F3C5E87000ABEA7 /* UIView+Extension.swift in Sources */,
 				78C77B791F3C510A000ABEA7 /* ZLNewFeatureViewController.swift in Sources */,
+				7820D8241F459DFA00E757F5 /* ZLSettingModel.swift in Sources */,
 				78C77B771F3C4982000ABEA7 /* ZLMeViewController.swift in Sources */,
 				78C77B6F1F3C46E6000ABEA7 /* ZLBaseViewController.swift in Sources */,
 				78C77B731F3C493A000ABEA7 /* ZLProductViewController.swift in Sources */,
@@ -643,8 +661,10 @@
 				78C77B711F3C48C2000ABEA7 /* ZLDanTangViewController.swift in Sources */,
 				78C77B751F3C4959000ABEA7 /* ZLCategoryViewController.swift in Sources */,
 				78B646931F419BA3000DB467 /* ZLMeFooterView.swift in Sources */,
+				7820D8291F468B1100E757F5 /* ZLSettingCell.swift in Sources */,
 				78C77B6D1F3C410E000ABEA7 /* ZLNavigationController.swift in Sources */,
 				78C77B691F3C39E5000ABEA7 /* ZLConst.swift in Sources */,
+				7820D82C1F468BF000E757F5 /* ZLSettingViewController.swift in Sources */,
 				78B646991F42EED2000DB467 /* ZLMeChoiceView.swift in Sources */,
 				78B6469B1F43EBDB000DB467 /* ZLMessageViewController.swift in Sources */,
 				78B646911F419AB4000DB467 /* ZLMineHeaderView.swift in Sources */,
