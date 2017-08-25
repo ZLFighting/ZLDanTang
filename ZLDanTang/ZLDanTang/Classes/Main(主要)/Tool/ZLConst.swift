@@ -15,7 +15,7 @@ import UIKit
 let ZL_IsTestHostUrl = 0
 
 #if !ZL_IsTestHostUrl
-let BASE_URL = "http://101.200.196.107:7080" // 正式环境
+let BASE_URL = "http://api.dantangapp.com/" // 正式环境
     
 #else
 let BASE_URL = "" // 测试地址
@@ -43,6 +43,8 @@ let ZLFirstLaunch = "firstLaunch"
 let isLogin = "isLogin"
 
 
+// code 码 200 操作成功
+let RETURN_OK = 200
 
 
 //*　----------------尺寸-------------------　*//
@@ -64,16 +66,21 @@ let isIPhone6P = UI_View_Height == 736 ? true : false
 
 // 间距
 let kMargin: CGFloat = 10.0
+// 线宽
+let klineWidth: CGFloat = 1.0
+// 圆角
+let kCornerRadius: CGFloat = 5.0
+// 动画时长
+let kAnimationDuration = 0.25
+
+
 
 // 我的界面头部图像的高度
 let kMineHeaderImageHeight: CGFloat = 200
 // 顶部标签指示条的高度
 let kIndicatorViewH: CGFloat = 2.0
 
-// 线宽
-let klineWidth: CGFloat = 1.0
-// 动画时长
-let kAnimationDuration = 0.25
+
 
 
 

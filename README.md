@@ -45,9 +45,19 @@
  - Model
 - 首页（单糖）
  - Controller
-  - ZLDanTangViewController.swift 单糖界面
+  - ZLDanTangViewController.swift 单糖父控制器
+  - ZLTopicViewController.swift 单糖子控制器
+  - ZLDetailViewController.swift 单糖商品-详情
  - View
+  - ZLHomeCell.swift 首页列表数据Cell
+  - ZLHomeCell.xib
+  - ZLRefreshControl.swift 刷新控件
+  - ZLRefreshView.swift 下拉刷新控件
+  - ZLRefreshView.xib 
  - Model
+  - ZLHomeItem.swift 首页列表数据Model
+  - ZLChannel.swift 首页顶部选择数据Model
+  - ZLSearchResult.swift 搜索结果Model
 - Product（单品）
  - Controller
   - ZLProductViewController.swift 单品界面

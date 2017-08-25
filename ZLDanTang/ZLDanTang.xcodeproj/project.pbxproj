@@ -12,6 +12,17 @@
 		7820D82A1F468B1100E757F5 /* ZLSettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7820D8281F468B1100E757F5 /* ZLSettingCell.xib */; };
 		7820D82C1F468BF000E757F5 /* ZLSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7820D82B1F468BF000E757F5 /* ZLSettingViewController.swift */; };
 		7820D82E1F468DDE00E757F5 /* SettingCell.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7820D82D1F468DDE00E757F5 /* SettingCell.plist */; };
+		7820D8331F4BC95300E757F5 /* ZLHomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7820D8321F4BC95300E757F5 /* ZLHomeItem.swift */; };
+		7820D8351F4BCB4C00E757F5 /* ZLChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7820D8341F4BCB4C00E757F5 /* ZLChannel.swift */; };
+		7820D8371F4BCB6D00E757F5 /* ZLSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7820D8361F4BCB6D00E757F5 /* ZLSearchResult.swift */; };
+		7820D8391F4BCE3400E757F5 /* ZLDanTangNetworkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7820D8381F4BCE3400E757F5 /* ZLDanTangNetworkTool.swift */; };
+		7820D83B1F4BDCC500E757F5 /* ZLTopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7820D83A1F4BDCC500E757F5 /* ZLTopicViewController.swift */; };
+		7820D83E1F4C01BE00E757F5 /* ZLHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7820D83C1F4C01BE00E757F5 /* ZLHomeCell.swift */; };
+		7820D83F1F4C01BE00E757F5 /* ZLHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7820D83D1F4C01BE00E757F5 /* ZLHomeCell.xib */; };
+		7820D8411F4D784900E757F5 /* ZLRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7820D8401F4D784900E757F5 /* ZLRefreshControl.swift */; };
+		7820D8431F4D78C700E757F5 /* ZLRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7820D8421F4D78C700E757F5 /* ZLRefreshView.swift */; };
+		7820D8471F4D790D00E757F5 /* ZLRefreshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7820D8461F4D790D00E757F5 /* ZLRefreshView.xib */; };
+		7820D84F1F4E806800E757F5 /* ZLDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7820D84E1F4E806800E757F5 /* ZLDetailViewController.swift */; };
 		78B6468E1F419428000DB467 /* ZLLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B6468C1F419428000DB467 /* ZLLoginViewController.swift */; };
 		78B6468F1F419428000DB467 /* ZLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78B6468D1F419428000DB467 /* ZLLoginViewController.xib */; };
 		78B646911F419AB4000DB467 /* ZLMineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B646901F419AB4000DB467 /* ZLMineHeaderView.swift */; };
@@ -74,6 +85,17 @@
 		7820D8281F468B1100E757F5 /* ZLSettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLSettingCell.xib; sourceTree = "<group>"; };
 		7820D82B1F468BF000E757F5 /* ZLSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLSettingViewController.swift; sourceTree = "<group>"; };
 		7820D82D1F468DDE00E757F5 /* SettingCell.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SettingCell.plist; sourceTree = "<group>"; };
+		7820D8321F4BC95300E757F5 /* ZLHomeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLHomeItem.swift; sourceTree = "<group>"; };
+		7820D8341F4BCB4C00E757F5 /* ZLChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLChannel.swift; sourceTree = "<group>"; };
+		7820D8361F4BCB6D00E757F5 /* ZLSearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLSearchResult.swift; sourceTree = "<group>"; };
+		7820D8381F4BCE3400E757F5 /* ZLDanTangNetworkTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLDanTangNetworkTool.swift; sourceTree = "<group>"; };
+		7820D83A1F4BDCC500E757F5 /* ZLTopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLTopicViewController.swift; sourceTree = "<group>"; };
+		7820D83C1F4C01BE00E757F5 /* ZLHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLHomeCell.swift; sourceTree = "<group>"; };
+		7820D83D1F4C01BE00E757F5 /* ZLHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLHomeCell.xib; sourceTree = "<group>"; };
+		7820D8401F4D784900E757F5 /* ZLRefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLRefreshControl.swift; sourceTree = "<group>"; };
+		7820D8421F4D78C700E757F5 /* ZLRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLRefreshView.swift; sourceTree = "<group>"; };
+		7820D8461F4D790D00E757F5 /* ZLRefreshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLRefreshView.xib; sourceTree = "<group>"; };
+		7820D84E1F4E806800E757F5 /* ZLDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLDetailViewController.swift; sourceTree = "<group>"; };
 		78B6468C1F419428000DB467 /* ZLLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLLoginViewController.swift; sourceTree = "<group>"; };
 		78B6468D1F419428000DB467 /* ZLLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLLoginViewController.xib; sourceTree = "<group>"; };
 		78B646901F419AB4000DB467 /* ZLMineHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLMineHeaderView.swift; sourceTree = "<group>"; };
@@ -133,6 +155,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7820D82F1F4BC5F500E757F5 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				7820D8381F4BCE3400E757F5 /* ZLDanTangNetworkTool.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		78C77B091F3C0927000ABEA7 = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +263,7 @@
 				78C77B491F3C35C1000ABEA7 /* Controller */,
 				78C77B4A1F3C35C1000ABEA7 /* Model */,
 				78C77B4B1F3C35C1000ABEA7 /* View */,
+				7820D82F1F4BC5F500E757F5 /* Tool */,
 			);
 			path = "DanTang(单糖)";
 			sourceTree = "<group>";
@@ -241,6 +272,8 @@
 			isa = PBXGroup;
 			children = (
 				78C77B701F3C48C2000ABEA7 /* ZLDanTangViewController.swift */,
+				7820D83A1F4BDCC500E757F5 /* ZLTopicViewController.swift */,
+				7820D84E1F4E806800E757F5 /* ZLDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -248,6 +281,9 @@
 		78C77B4A1F3C35C1000ABEA7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7820D8321F4BC95300E757F5 /* ZLHomeItem.swift */,
+				7820D8341F4BCB4C00E757F5 /* ZLChannel.swift */,
+				7820D8361F4BCB6D00E757F5 /* ZLSearchResult.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -255,6 +291,11 @@
 		78C77B4B1F3C35C1000ABEA7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7820D83C1F4C01BE00E757F5 /* ZLHomeCell.swift */,
+				7820D83D1F4C01BE00E757F5 /* ZLHomeCell.xib */,
+				7820D8401F4D784900E757F5 /* ZLRefreshControl.swift */,
+				7820D8421F4D78C700E757F5 /* ZLRefreshView.swift */,
+				7820D8461F4D790D00E757F5 /* ZLRefreshView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -571,7 +612,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7820D83F1F4C01BE00E757F5 /* ZLHomeCell.xib in Resources */,
 				78C77B621F3C35C1000ABEA7 /* Info.plist in Resources */,
+				7820D8471F4D790D00E757F5 /* ZLRefreshView.xib in Resources */,
 				7820D82A1F468B1100E757F5 /* ZLSettingCell.xib in Resources */,
 				78C77B1D1F3C0927000ABEA7 /* Assets.xcassets in Resources */,
 				78B6468F1F419428000DB467 /* ZLLoginViewController.xib in Resources */,
@@ -649,16 +692,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7820D83E1F4C01BE00E757F5 /* ZLHomeCell.swift in Sources */,
 				78B646961F4292EA000DB467 /* ZLRegisterViewController.swift in Sources */,
 				78B6468E1F419428000DB467 /* ZLLoginViewController.swift in Sources */,
+				7820D8411F4D784900E757F5 /* ZLRefreshControl.swift in Sources */,
 				78C77B7E1F3C5E87000ABEA7 /* UIView+Extension.swift in Sources */,
+				7820D8351F4BCB4C00E757F5 /* ZLChannel.swift in Sources */,
 				78C77B791F3C510A000ABEA7 /* ZLNewFeatureViewController.swift in Sources */,
 				7820D8241F459DFA00E757F5 /* ZLSettingModel.swift in Sources */,
+				7820D8331F4BC95300E757F5 /* ZLHomeItem.swift in Sources */,
 				78C77B771F3C4982000ABEA7 /* ZLMeViewController.swift in Sources */,
+				7820D83B1F4BDCC500E757F5 /* ZLTopicViewController.swift in Sources */,
 				78C77B6F1F3C46E6000ABEA7 /* ZLBaseViewController.swift in Sources */,
 				78C77B731F3C493A000ABEA7 /* ZLProductViewController.swift in Sources */,
+				7820D8371F4BCB6D00E757F5 /* ZLSearchResult.swift in Sources */,
 				78C77B611F3C35C1000ABEA7 /* AppDelegate.swift in Sources */,
 				78C77B711F3C48C2000ABEA7 /* ZLDanTangViewController.swift in Sources */,
+				7820D84F1F4E806800E757F5 /* ZLDetailViewController.swift in Sources */,
 				78C77B751F3C4959000ABEA7 /* ZLCategoryViewController.swift in Sources */,
 				78B646931F419BA3000DB467 /* ZLMeFooterView.swift in Sources */,
 				7820D8291F468B1100E757F5 /* ZLSettingCell.swift in Sources */,
@@ -667,7 +717,9 @@
 				7820D82C1F468BF000E757F5 /* ZLSettingViewController.swift in Sources */,
 				78B646991F42EED2000DB467 /* ZLMeChoiceView.swift in Sources */,
 				78B6469B1F43EBDB000DB467 /* ZLMessageViewController.swift in Sources */,
+				7820D8391F4BCE3400E757F5 /* ZLDanTangNetworkTool.swift in Sources */,
 				78B646911F419AB4000DB467 /* ZLMineHeaderView.swift in Sources */,
+				7820D8431F4D78C700E757F5 /* ZLRefreshView.swift in Sources */,
 				78C77B6B1F3C3CAA000ABEA7 /* ZLTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

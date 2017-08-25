@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="homeCellID" selectionStyle="default" indentationWidth="10" reuseIdentifier="homeCellID" id="Znm-Cb-iMr" customClass="ZLHomeCell" customModule="ZLDanTang">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Znm-Cb-iMr" id="nhO-4t-tTK">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="159.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Rp-1o-poR">
+                        <rect key="frame" x="145" y="67" width="31" height="26"/>
+                        <state key="normal" image="PlaceHolderImage_small_31x26_"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tCD-FJ-r5L">
+                        <rect key="frame" x="8" y="8" width="304" height="144"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2o-iX-3db">
+                        <rect key="frame" x="276" y="18" width="26" height="25"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="j1Z-G2-CcR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="0" image="Feed_FavoriteIcon_17x17_"/>
+                        <connections>
+                            <action selector="favoriteButtonClickWithSender:" destination="Znm-Cb-iMr" eventType="touchUpInside" id="U1c-Gw-bYJ"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfu-Hz-Ag5">
+                        <rect key="frame" x="13" y="126" width="44" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="3Rp-1o-poR" firstAttribute="centerX" secondItem="nhO-4t-tTK" secondAttribute="centerX" id="5os-OI-tPT"/>
+                    <constraint firstItem="tCD-FJ-r5L" firstAttribute="top" secondItem="nhO-4t-tTK" secondAttribute="topMargin" id="KQc-fl-WhF"/>
+                    <constraint firstItem="3Rp-1o-poR" firstAttribute="centerY" secondItem="nhO-4t-tTK" secondAttribute="centerY" id="KXr-eG-Pbq"/>
+                    <constraint firstItem="B2o-iX-3db" firstAttribute="trailing" secondItem="tCD-FJ-r5L" secondAttribute="trailing" constant="-10" id="Rol-gc-ntY"/>
+                    <constraint firstItem="bfu-Hz-Ag5" firstAttribute="bottom" secondItem="tCD-FJ-r5L" secondAttribute="bottom" constant="-5" id="X2G-2W-sUT"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="tCD-FJ-r5L" secondAttribute="trailing" id="iFf-ci-Oda"/>
+                    <constraint firstItem="tCD-FJ-r5L" firstAttribute="leading" secondItem="nhO-4t-tTK" secondAttribute="leadingMargin" id="jSX-f7-TBN"/>
+                    <constraint firstItem="B2o-iX-3db" firstAttribute="top" secondItem="tCD-FJ-r5L" secondAttribute="top" constant="10" id="koc-gD-0m2"/>
+                    <constraint firstItem="bfu-Hz-Ag5" firstAttribute="leading" secondItem="tCD-FJ-r5L" secondAttribute="leading" constant="5" id="nRf-HB-SSG"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="tCD-FJ-r5L" secondAttribute="bottom" id="sBY-xL-n1E"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="bgImageView" destination="tCD-FJ-r5L" id="yUg-y9-f3T"/>
+                <outlet property="favoriteBtn" destination="B2o-iX-3db" id="UdL-VT-bkZ"/>
+                <outlet property="placeholderBtn" destination="3Rp-1o-poR" id="Uvj-Ex-8Nj"/>
+                <outlet property="titleLabel" destination="bfu-Hz-Ag5" id="ciq-tf-r6X"/>
+            </connections>
+            <point key="canvasLocation" x="566" y="205"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Feed_FavoriteIcon_17x17_" width="17" height="17"/>
+        <image name="PlaceHolderImage_small_31x26_" width="31" height="26"/>
+    </resources>
+</document>

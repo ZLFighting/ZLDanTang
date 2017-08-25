@@ -55,8 +55,7 @@ class ZLSettingViewController: ZLBaseViewController, UITableViewDataSource, UITa
     
     // tableview 分区数目
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-//        return settings.count
-        return 4;
+        return settings.count
     }
     
     // tableview 每个分区的行数
