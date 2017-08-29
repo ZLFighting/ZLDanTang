@@ -85,7 +85,7 @@ class ZLTopicViewController: UITableViewController, ZLHomeCellDelegate {
     
     // MARK: - ZLHomeCellDelegate
     func homeCellDidClickedFavoriteButton(button: UIButton) {
-        if !UserDefaults.standard.bool(forKey: isLogin) {
+        if !UserDefaults.standard.bool(forKey: isLogin) { // 当未登录情况
             let loginVC = ZLLoginViewController()
             loginVC.title = "登录"
             let nav = ZLNavigationController(rootViewController: loginVC)

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="fL9-dc-BBa" customClass="ZLCollectionViewCell" customModule="ZLDanTang">
+            <rect key="frame" x="0.0" y="0.0" width="139" height="245"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="139" height="245"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Xk-pg-eKA">
+                        <rect key="frame" x="54" y="69" width="31" height="26"/>
+                        <state key="normal" image="PlaceHolderImage_small_31x26_"/>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pB6-sY-DIm">
+                        <rect key="frame" x="0.0" y="0.0" width="139" height="164"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="164" id="vYr-1m-nhG"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXA-0E-e5d">
+                        <rect key="frame" x="5" y="176" width="134" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0C-Oc-43R">
+                        <rect key="frame" x="5" y="215" width="38" height="25"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.90980392160000001" green="0.3294117647" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4d-iP-h3w">
+                        <rect key="frame" x="112" y="215" width="22" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="Vq6-IU-MrD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" title="0" image="Search_GiftBtn_Default_12x10_">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="likeButtonClickWithSender:" destination="fL9-dc-BBa" eventType="touchUpInside" id="MCn-pc-Zkg"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="S0C-Oc-43R" secondAttribute="bottom" constant="5" id="4rO-eN-juK"/>
+                <constraint firstItem="pB6-sY-DIm" firstAttribute="leading" secondItem="fL9-dc-BBa" secondAttribute="leading" id="F6e-Yh-PU7"/>
+                <constraint firstItem="b4d-iP-h3w" firstAttribute="height" secondItem="S0C-Oc-43R" secondAttribute="height" id="GNe-ng-iym"/>
+                <constraint firstItem="5Xk-pg-eKA" firstAttribute="centerY" secondItem="pB6-sY-DIm" secondAttribute="centerY" id="XOP-1r-W4u"/>
+                <constraint firstItem="5Xk-pg-eKA" firstAttribute="centerX" secondItem="pB6-sY-DIm" secondAttribute="centerX" id="Xb3-9i-DZY"/>
+                <constraint firstAttribute="trailing" secondItem="b4d-iP-h3w" secondAttribute="trailing" constant="5" id="aKl-jJ-Y1E"/>
+                <constraint firstItem="sXA-0E-e5d" firstAttribute="top" secondItem="pB6-sY-DIm" secondAttribute="bottom" constant="12" id="cvD-x7-vis"/>
+                <constraint firstAttribute="trailing" secondItem="pB6-sY-DIm" secondAttribute="trailing" id="kc2-QG-2dP"/>
+                <constraint firstItem="S0C-Oc-43R" firstAttribute="leading" secondItem="sXA-0E-e5d" secondAttribute="leading" id="nm1-5s-Ler"/>
+                <constraint firstItem="sXA-0E-e5d" firstAttribute="leading" secondItem="fL9-dc-BBa" secondAttribute="leading" constant="5" id="olp-Bl-B7t"/>
+                <constraint firstAttribute="trailing" secondItem="sXA-0E-e5d" secondAttribute="trailing" id="q29-ei-Ogm"/>
+                <constraint firstItem="b4d-iP-h3w" firstAttribute="centerY" secondItem="S0C-Oc-43R" secondAttribute="centerY" id="sSF-L5-TXg"/>
+                <constraint firstItem="pB6-sY-DIm" firstAttribute="top" secondItem="fL9-dc-BBa" secondAttribute="top" id="yHL-Ln-gey"/>
+            </constraints>
+            <size key="customSize" width="139" height="193"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="5"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="likeButton" destination="b4d-iP-h3w" id="DIO-EH-DMp"/>
+                <outlet property="placeholderBtn" destination="5Xk-pg-eKA" id="uqY-97-9kD"/>
+                <outlet property="priceLabel" destination="S0C-Oc-43R" id="ZRh-1Z-UwC"/>
+                <outlet property="productImageView" destination="pB6-sY-DIm" id="asA-ni-7dZ"/>
+                <outlet property="titleLabel" destination="sXA-0E-e5d" id="IVj-Nm-KOS"/>
+            </connections>
+            <point key="canvasLocation" x="294.5" y="478.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="PlaceHolderImage_small_31x26_" width="31" height="26"/>
+        <image name="Search_GiftBtn_Default_12x10_" width="12" height="10"/>
+    </resources>
+</document>

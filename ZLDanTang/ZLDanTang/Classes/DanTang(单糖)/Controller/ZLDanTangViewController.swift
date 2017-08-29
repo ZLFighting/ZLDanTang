@@ -56,6 +56,8 @@ class ZLDanTangViewController: ZLBaseViewController, UIScrollViewDelegate {
     
     func searchRightClick() {
         print("点击了搜索")
+        let searchBarVC = ZLSearchViewController()
+        navigationController?.pushViewController(searchBarVC, animated: true)
     }
     
     // MARK: - 初始化子控制器

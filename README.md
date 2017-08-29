@@ -48,6 +48,7 @@
   - ZLDanTangViewController.swift 单糖父控制器
   - ZLTopicViewController.swift 单糖子控制器
   - ZLDetailViewController.swift 单糖商品-详情
+  - ZLSearchViewController.swift 搜索控制器
  - View
   - ZLHomeCell.swift 首页列表数据Cell
   - ZLHomeCell.xib
