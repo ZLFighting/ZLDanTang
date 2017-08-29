@@ -27,7 +27,7 @@
 
 ## 下面是项目的目前初始框架结构
 
-- Main（主要）
+**- Main（主要）**
  - Controller
   - ZLTabBarController.swift 自定义初始化底部子控制器
   - ZLNavigationController.swift nav控制器 NavigationController
@@ -35,7 +35,7 @@
   - ZLNewFeatureViewController.swift  新特性(引导页)
  - Tools
   - ZLConst.swift 
-- Login&Register（登录和注册）
+**- Login&Register（登录和注册）**
  - Controller
   - ZLLoginViewController.swift 登录控制器
   - ZLLoginViewController.xib
@@ -43,7 +43,7 @@
   - ZLRegisterViewController.xib
  - View
  - Model
-- 首页（单糖）
+**- 首页（单糖）**
  - Controller
   - ZLDanTangViewController.swift 单糖父控制器
   - ZLTopicViewController.swift 单糖子控制器
@@ -59,17 +59,24 @@
   - ZLHomeItem.swift 首页列表数据Model
   - ZLChannel.swift 首页顶部选择数据Model
   - ZLSearchResult.swift 搜索结果Model
-- Product（单品）
+ - Tool
+  - ZLDanTangNetworkTool.swift 首页单糖的相关请求接口
+**- Product（单品）**
  - Controller
   - ZLProductViewController.swift 单品界面
  - View
+  - ZLCollectionViewCell.swift 单品界面的瀑布流cell
+  - ZLCollectionViewCell.xib
  - Model
-- Classify（分类）
+  - ZLProduct.swift 单品的Model
+ - Tool
+  - ZLProductNetworkTool.swift 单品的相关请求接口
+**- Classify（分类）**
  - Controller
   - ZLCategoryViewController.swift 分类界面
  - View
  - Model
-- Me（我）
+**- Me（我）**
  - Controller
   - ZLMeViewController.swift 我的界面
   - ZLMessageViewController.swift  消息控制器

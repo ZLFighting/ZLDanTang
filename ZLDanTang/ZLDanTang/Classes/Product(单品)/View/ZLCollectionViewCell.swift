@@ -5,6 +5,7 @@
 //  Created by ZL on 2017/8/29.
 //  Copyright © 2017年 zhangli. All rights reserved.
 //
+// 单品界面的瀑布流cell
 
 import UIKit
 import Kingfisher // 缓存图片

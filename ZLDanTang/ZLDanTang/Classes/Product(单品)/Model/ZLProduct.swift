@@ -4,7 +4,8 @@
 //
 //  Created by ZL on 2017/8/29.
 //  Copyright © 2017年 zhangli. All rights reserved.
-//
+//  
+// 单品Model
 
 import UIKit
 
