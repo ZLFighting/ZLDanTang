@@ -123,11 +123,11 @@ class ZLSearchViewController: ZLBaseViewController, UISearchBarDelegate, UIColle
     // MARK: - UICollectionViewDelegate
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("----商品详情---")
-//        let productDetailVC = ZLProductDetailViewController()
-//        productDetailVC.title = "商品详情"
-//        productDetailVC.type = String(describing: self)
-//        productDetailVC.result = results[indexPath.item]
-//        navigationController?.pushViewController(productDetailVC, animated: true)
+        let productDetailVC = ZLProductDetailViewController()
+        productDetailVC.title = "商品详情"
+        productDetailVC.type = String(describing: self)
+        productDetailVC.result = results[indexPath.item]
+        navigationController?.pushViewController(productDetailVC, animated: true)
     }
     
     // MARK: - UICollectionViewDelegateFlowLayout

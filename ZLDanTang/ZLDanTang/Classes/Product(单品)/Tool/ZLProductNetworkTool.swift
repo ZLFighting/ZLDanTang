@@ -58,34 +58,34 @@ class ZLProductNetworkTool: NSObject {
         }
     }
     
-//    /// 获取单品详情数据
-//    func loadProductDetailData(id: Int, finished:@escaping (_ productDetail: ZLProductDetail) -> ()) {
-//        SVProgressHUD.show(withStatus: "正在加载...")
-//        let url = BASE_URL + "v2/items/\(id)"
-//        Alamofire
-//            .request(url)
-//            .responseJSON { (response) in
-//                guard response.result.isSuccess else {
-//                    SVProgressHUD.showError(withStatus: "加载失败...")
-//                    return
-//                }
-//                if let value = response.result.value {
-//                    let dict = JSON(value)
-//                    let code = dict["code"].intValue
-//                    let message = dict["message"].stringValue
-//                    guard code == RETURN_OK else {
-//                        SVProgressHUD.showInfo(withStatus: message)
-//                        return
-//                    }
-//                    SVProgressHUD.dismiss()
-//                    if let data = dict["data"].dictionaryObject {
-//                        let productDetail = ZLProductDetail(dict: data as [String : AnyObject])
-//                        finished(productDetail)
-//                    }
-//                }
-//        }
-//    }
-//    
+    /// 获取单品详情数据
+    func loadProductDetailData(id: Int, finished:@escaping (_ productDetail: ZLProductDetail) -> ()) {
+        SVProgressHUD.show(withStatus: "正在加载...")
+        let url = BASE_URL + "v2/items/\(id)"
+        Alamofire // 网络请求
+            .request(url)
+            .responseJSON { (response) in
+                guard response.result.isSuccess else {
+                    SVProgressHUD.showError(withStatus: "加载失败...")
+                    return
+                }
+                if let value = response.result.value {
+                    let dict = JSON(value)
+                    let code = dict["code"].intValue
+                    let message = dict["message"].stringValue
+                    guard code == RETURN_OK else {
+                        SVProgressHUD.showInfo(withStatus: message)
+                        return
+                    }
+                    SVProgressHUD.dismiss()
+                    if let data = dict["data"].dictionaryObject {
+                        let productDetail = ZLProductDetail(dict: data as [String : AnyObject])
+                        finished(productDetail)
+                    }
+                }
+        }
+    }
+
 //    /// 商品详情 评论
 //    func loadProductDetailComments(id: Int, finished:@escaping (_ comments: [ZLComment]) -> ()) {
 //        SVProgressHUD.show(withStatus: "正在加载...")

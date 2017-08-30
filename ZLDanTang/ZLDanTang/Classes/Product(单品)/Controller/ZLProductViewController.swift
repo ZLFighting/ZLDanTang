@@ -65,7 +65,11 @@ class ZLProductViewController: ZLBaseViewController, UICollectionViewDelegate, U
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("点击了单品的商品详情")
-
+        
+        let productDetailVC = ZLProductDetailViewController()
+        productDetailVC.title = "商品详情"
+        productDetailVC.product = products[indexPath.item]
+        navigationController?.pushViewController(productDetailVC, animated: true)
     }
     
     // MARK: - UICollectionViewDelegateFlowLayout

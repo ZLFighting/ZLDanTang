@@ -35,6 +35,7 @@
   - ZLNewFeatureViewController.swift  新特性(引导页)
  - Tools
   - ZLConst.swift 
+
 **- Login&Register（登录和注册）**
  - Controller
   - ZLLoginViewController.swift 登录控制器
@@ -43,6 +44,7 @@
   - ZLRegisterViewController.xib
  - View
  - Model
+
 **- 首页（单糖）**
  - Controller
   - ZLDanTangViewController.swift 单糖父控制器
@@ -61,21 +63,29 @@
   - ZLSearchResult.swift 搜索结果Model
  - Tool
   - ZLDanTangNetworkTool.swift 首页单糖的相关请求接口
+
 **- Product（单品）**
  - Controller
   - ZLProductViewController.swift 单品界面
+  - ZLProductDetailViewController.swift 单品详情控制器
  - View
   - ZLCollectionViewCell.swift 单品界面的瀑布流cell
   - ZLCollectionViewCell.xib
+  - ZLDetailScrollView.swift 单品详情的scrollView
+  - ZLProductDetailToolBar.swift 单品详情的底部栏View(去天猫购买)
+  - ZLProductDetailToolBar.xib
  - Model
   - ZLProduct.swift 单品的Model
+  - ZLProductDetail.swift 单品详情Model
  - Tool
   - ZLProductNetworkTool.swift 单品的相关请求接口
+
 **- Classify（分类）**
  - Controller
   - ZLCategoryViewController.swift 分类界面
  - View
  - Model
+
 **- Me（我）**
  - Controller
   - ZLMeViewController.swift 我的界面
