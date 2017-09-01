@@ -72,6 +72,9 @@
   - ZLCollectionViewCell.swift 单品界面的瀑布流cell
   - ZLCollectionViewCell.xib
   - ZLDetailScrollView.swift 单品详情的scrollView
+    - ZLProductDetailTopView.swift 单品详情的scrollView里的-顶部滚动视图
+     - ZLDetailCollectionViewCell.swift 单品详情的scrollView里的-顶部滚动视图里的-轮播图广告页
+     - ZLDetailCollectionViewCell.xib
   - ZLProductDetailToolBar.swift 单品详情的底部栏View(去天猫购买)
   - ZLProductDetailToolBar.xib
  - Model
