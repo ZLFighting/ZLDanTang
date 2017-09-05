@@ -75,6 +75,10 @@
     - ZLProductDetailTopView.swift 单品详情的scrollView里的-顶部滚动视图
      - ZLDetailCollectionViewCell.swift 单品详情的scrollView里的-顶部滚动视图里的-轮播图广告页
      - ZLDetailCollectionViewCell.xib
+    - ZLProductDetailBottomView.swift 单品详情的scrollView里的-底部滚动条(图文介绍，评论)
+     - ZLCommentCell.swift 单品详情的scrollView里的-底部滚动条(图文介绍，评论)里的-评论Cell
+     - ZLCommentCell.xib
+     - ZLDetailChoiceButtonView.swift 单品详情的scrollView里的-底部滚动条(图文介绍，评论)里的-图文介绍,评论按钮工具条
   - ZLProductDetailToolBar.swift 单品详情的底部栏View(去天猫购买)
   - ZLProductDetailToolBar.xib
  - Model

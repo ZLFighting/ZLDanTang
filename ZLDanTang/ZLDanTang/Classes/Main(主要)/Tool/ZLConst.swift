@@ -58,9 +58,9 @@ let UI_View_Height = UIScreen.main.bounds.size.height
     
 // iPhone 5
 let isIPhone5 = UI_View_Height == 568 ? true : false
-// iPhone 6
+// iPhone 6/7
 let isIPhone6 = UI_View_Height == 667 ? true : false
-// iPhone 6P
+// iPhone 6P/7P
 let isIPhone6P = UI_View_Height == 736 ? true : false
 
 
