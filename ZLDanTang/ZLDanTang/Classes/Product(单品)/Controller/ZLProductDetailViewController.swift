@@ -29,6 +29,7 @@ class ZLProductDetailViewController: ZLBaseViewController, ZLProductDetailToolBa
     // MARK: - nav上分享按钮点击
     func shareItemClick() {
         print("点击了分享按钮")
+        ZLShareActionSheet.show()
     }
     
     // MARK: - 设置界面相关
@@ -72,12 +73,12 @@ class ZLProductDetailViewController: ZLBaseViewController, ZLProductDetailToolBa
     }()
     
     // MARK: 底部栏按钮点击
-    func toolBarDidClickedTMALLButton() {
-//        let tmAllVC = ZLTMALLViewController()
-//        tmAllVC.title = "商品详情"
-//        tmAllVC.product = product
-//        let nav = ZLNavigationController(rootViewController: tmAllVC)
-//        present(nav, animated: true, completion: nil)
+    func toolBarDidClickedTMALLButton() { // 去天猫购买
+        let tmAllVC = ZLTMALLViewController()
+        tmAllVC.title = "商品详情"
+        tmAllVC.product = product
+        let nav = ZLNavigationController(rootViewController: tmAllVC)
+        present(nav, animated: true, completion: nil)
     }
 
 

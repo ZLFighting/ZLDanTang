@@ -33,6 +33,8 @@
   - ZLNavigationController.swift nav控制器 NavigationController
   - ZLBaseViewController.swift  基类控制器
   - ZLNewFeatureViewController.swift  新特性(引导页)
+ - Public
+   - ZLVerticalButton.swift 自定义按钮:图文居中排列(图片在上文字在右)
  - Tools
   - ZLConst.swift 
 
@@ -68,6 +70,8 @@
  - Controller
   - ZLProductViewController.swift 单品界面
   - ZLProductDetailViewController.swift 单品详情控制器
+  - ZLTMALLViewController.swift 去天猫购买
+  - ZLTMALLViewController.xib
  - View
   - ZLCollectionViewCell.swift 单品界面的瀑布流cell
   - ZLCollectionViewCell.xib
@@ -75,12 +79,15 @@
     - ZLProductDetailTopView.swift 单品详情的scrollView里的-顶部滚动视图
      - ZLDetailCollectionViewCell.swift 单品详情的scrollView里的-顶部滚动视图里的-轮播图广告页
      - ZLDetailCollectionViewCell.xib
-    - ZLProductDetailBottomView.swift 单品详情的scrollView里的-底部滚动条(图文介绍，评论)
-     - ZLCommentCell.swift 单品详情的scrollView里的-底部滚动条(图文介绍，评论)里的-评论Cell
+    - ZLProductDetailBottomView.swift 单品详情的scrollView里的-底部滚动区(图文介绍，评论)
+     - ZLCommentCell.swift 单品详情的scrollView里的-底部滚动区(图文介绍，评论)里的-评论Cell
      - ZLCommentCell.xib
-     - ZLDetailChoiceButtonView.swift 单品详情的scrollView里的-底部滚动条(图文介绍，评论)里的-图文介绍,评论按钮工具条
-  - ZLProductDetailToolBar.swift 单品详情的底部栏View(去天猫购买)
-  - ZLProductDetailToolBar.xib
+     - ZLDetailChoiceButtonView.swift 单品详情的scrollView里的-底部滚动区(图文介绍，评论)里的-图文介绍,评论按钮工具条
+     - ZLDetailChoiceButtonView.xib
+   - ZLProductDetailToolBar.swift 单品详情的底部栏View(去天猫购买及喜欢)
+   - ZLProductDetailToolBar.xib 
+   - ZLShareActionSheet.swift 商品分享底部弹框视图
+     - ZLShareButtonView.swift 商品分享底部弹框视图-内部按钮
  - Model
   - ZLProduct.swift 单品的Model
   - ZLProductDetail.swift 单品详情Model

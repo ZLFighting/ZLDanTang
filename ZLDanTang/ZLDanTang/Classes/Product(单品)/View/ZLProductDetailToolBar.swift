@@ -5,12 +5,12 @@
 //  Created by ZL on 2017/8/30.
 //  Copyright © 2017年 zhangli. All rights reserved.
 //
-// 单品详情的底部栏View(去天猫购买)
+// 单品详情的底部栏View(去天猫购买及喜欢)
 
 import UIKit
 
 protocol ZLProductDetailToolBarDelegate: NSObjectProtocol {
-    func toolBarDidClickedTMALLButton()
+    func toolBarDidClickedTMALLButton() // 去天猫购买 
 }
 
 class ZLProductDetailToolBar: UIView {
@@ -27,7 +27,7 @@ class ZLProductDetailToolBar: UIView {
         likeButton.setImage(UIImage(named: "content-details_like_selected_16x16_"), for: .selected)
     }
     
-    @IBAction func likeButtonClick(sender: UIButton) {
+    @IBAction func likeButtonClick(sender: UIButton) { // 喜欢按钮
         // 判断是否登录
         if UserDefaults.standard.bool(forKey: isLogin) {
             sender.isSelected = !sender.isSelected

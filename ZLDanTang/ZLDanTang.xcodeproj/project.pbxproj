@@ -16,6 +16,12 @@
 		781E37611F5D32F800621D39 /* ZLCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781E375F1F5D32F800621D39 /* ZLCommentCell.xib */; };
 		781E37681F5E773300621D39 /* ZLDetailChoiceButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781E37661F5E773300621D39 /* ZLDetailChoiceButtonView.swift */; };
 		781E37691F5E773300621D39 /* ZLDetailChoiceButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781E37671F5E773300621D39 /* ZLDetailChoiceButtonView.xib */; };
+		781E376C1F5E7B3500621D39 /* ZLTMALLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781E376A1F5E7B3500621D39 /* ZLTMALLViewController.swift */; };
+		781E376D1F5E7B3500621D39 /* ZLTMALLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781E376B1F5E7B3500621D39 /* ZLTMALLViewController.xib */; };
+		781E376F1F5E7DCD00621D39 /* ZLShareActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781E376E1F5E7DCD00621D39 /* ZLShareActionSheet.swift */; };
+		781E37711F5E7FE900621D39 /* ZLShareButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781E37701F5E7FE900621D39 /* ZLShareButtonView.swift */; };
+		781E37771F5E883000621D39 /* ZLGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781E37761F5E883000621D39 /* ZLGroup.swift */; };
+		781E37791F5E8A4D00621D39 /* ZLVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781E37781F5E8A4D00621D39 /* ZLVerticalButton.swift */; };
 		7820D8241F459DFA00E757F5 /* ZLSettingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7820D8231F459DFA00E757F5 /* ZLSettingModel.swift */; };
 		7820D8291F468B1100E757F5 /* ZLSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7820D8271F468B1100E757F5 /* ZLSettingCell.swift */; };
 		7820D82A1F468B1100E757F5 /* ZLSettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7820D8281F468B1100E757F5 /* ZLSettingCell.xib */; };
@@ -112,6 +118,12 @@
 		781E375F1F5D32F800621D39 /* ZLCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLCommentCell.xib; sourceTree = "<group>"; };
 		781E37661F5E773300621D39 /* ZLDetailChoiceButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLDetailChoiceButtonView.swift; sourceTree = "<group>"; };
 		781E37671F5E773300621D39 /* ZLDetailChoiceButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLDetailChoiceButtonView.xib; sourceTree = "<group>"; };
+		781E376A1F5E7B3500621D39 /* ZLTMALLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLTMALLViewController.swift; sourceTree = "<group>"; };
+		781E376B1F5E7B3500621D39 /* ZLTMALLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLTMALLViewController.xib; sourceTree = "<group>"; };
+		781E376E1F5E7DCD00621D39 /* ZLShareActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLShareActionSheet.swift; sourceTree = "<group>"; };
+		781E37701F5E7FE900621D39 /* ZLShareButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLShareButtonView.swift; sourceTree = "<group>"; };
+		781E37761F5E883000621D39 /* ZLGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLGroup.swift; sourceTree = "<group>"; };
+		781E37781F5E8A4D00621D39 /* ZLVerticalButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLVerticalButton.swift; sourceTree = "<group>"; };
 		7820D8231F459DFA00E757F5 /* ZLSettingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLSettingModel.swift; sourceTree = "<group>"; };
 		7820D8271F468B1100E757F5 /* ZLSettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZLSettingCell.swift; sourceTree = "<group>"; };
 		7820D8281F468B1100E757F5 /* ZLSettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZLSettingCell.xib; sourceTree = "<group>"; };
@@ -300,6 +312,7 @@
 		78C77B461F3C35C1000ABEA7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				781E37761F5E883000621D39 /* ZLGroup.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -515,6 +528,8 @@
 			children = (
 				78C77B721F3C493A000ABEA7 /* ZLProductViewController.swift */,
 				7820D8671F554EDB00E757F5 /* ZLProductDetailViewController.swift */,
+				781E376A1F5E7B3500621D39 /* ZLTMALLViewController.swift */,
+				781E376B1F5E7B3500621D39 /* ZLTMALLViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -545,6 +560,8 @@
 				781E37511F5956B700621D39 /* ZLDetailCollectionViewCell.xib */,
 				7820D8D01F56B48400E757F5 /* ZLProductDetailToolBar.swift */,
 				7820D8D21F56B4AD00E757F5 /* ZLProductDetailToolBar.xib */,
+				781E376E1F5E7DCD00621D39 /* ZLShareActionSheet.swift */,
+				781E37701F5E7FE900621D39 /* ZLShareButtonView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -552,6 +569,7 @@
 		78C77B671F3C3779000ABEA7 /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				781E37781F5E8A4D00621D39 /* ZLVerticalButton.swift */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -699,6 +717,7 @@
 				78B6468F1F419428000DB467 /* ZLLoginViewController.xib in Resources */,
 				781E37531F5956B700621D39 /* ZLDetailCollectionViewCell.xib in Resources */,
 				7820D8D31F56B4AD00E757F5 /* ZLProductDetailToolBar.xib in Resources */,
+				781E376D1F5E7B3500621D39 /* ZLTMALLViewController.xib in Resources */,
 				78B646971F4292EA000DB467 /* ZLRegisterViewController.xib in Resources */,
 				781E37611F5D32F800621D39 /* ZLCommentCell.xib in Resources */,
 				7820D82E1F468DDE00E757F5 /* SettingCell.plist in Resources */,
@@ -778,6 +797,7 @@
 				7820D8601F553D3B00E757F5 /* ZLCollectionViewCell.swift in Sources */,
 				7820D8681F554EDB00E757F5 /* ZLProductDetailViewController.swift in Sources */,
 				7820D83E1F4C01BE00E757F5 /* ZLHomeCell.swift in Sources */,
+				781E376F1F5E7DCD00621D39 /* ZLShareActionSheet.swift in Sources */,
 				78B646961F4292EA000DB467 /* ZLRegisterViewController.swift in Sources */,
 				781E374F1F594B7500621D39 /* ZLProductDetailTopView.swift in Sources */,
 				7820D8D11F56B48400E757F5 /* ZLProductDetailToolBar.swift in Sources */,
@@ -786,6 +806,7 @@
 				78C77B7E1F3C5E87000ABEA7 /* UIView+Extension.swift in Sources */,
 				7820D8351F4BCB4C00E757F5 /* ZLChannel.swift in Sources */,
 				781E37681F5E773300621D39 /* ZLDetailChoiceButtonView.swift in Sources */,
+				781E376C1F5E7B3500621D39 /* ZLTMALLViewController.swift in Sources */,
 				7820D8591F50147E00E757F5 /* ZLSortTableView.swift in Sources */,
 				78C77B791F3C510A000ABEA7 /* ZLNewFeatureViewController.swift in Sources */,
 				7820D8241F459DFA00E757F5 /* ZLSettingModel.swift in Sources */,
@@ -806,6 +827,7 @@
 				78B646931F419BA3000DB467 /* ZLMeFooterView.swift in Sources */,
 				7820D8291F468B1100E757F5 /* ZLSettingCell.swift in Sources */,
 				781E37551F595D4A00621D39 /* ZLProductDetailBottomView.swift in Sources */,
+				781E37771F5E883000621D39 /* ZLGroup.swift in Sources */,
 				7820D8631F553D5600E757F5 /* ZLProduct.swift in Sources */,
 				78C77B6D1F3C410E000ABEA7 /* ZLNavigationController.swift in Sources */,
 				7820D86A1F554F5400E757F5 /* ZLProductDetail.swift in Sources */,
@@ -819,8 +841,10 @@
 				7820D8391F4BCE3400E757F5 /* ZLDanTangNetworkTool.swift in Sources */,
 				7820D8511F4FBFBF00E757F5 /* ZLSearchViewController.swift in Sources */,
 				78B646911F419AB4000DB467 /* ZLMineHeaderView.swift in Sources */,
+				781E37711F5E7FE900621D39 /* ZLShareButtonView.swift in Sources */,
 				7820D8431F4D78C700E757F5 /* ZLRefreshView.swift in Sources */,
 				78C77B6B1F3C3CAA000ABEA7 /* ZLTabBarController.swift in Sources */,
+				781E37791F5E8A4D00621D39 /* ZLVerticalButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

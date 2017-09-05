@@ -26,7 +26,7 @@ let BASE_URL = "" // 测试地址
 
 //*　-----------------------------------　*//
 
-
+// 其他登录方式
 enum ZLOtherLoginBtnType: Int {
     /// 微博
     case weiboLogin = 100
@@ -34,6 +34,22 @@ enum ZLOtherLoginBtnType: Int {
     case weChatLogin = 101
     /// QQ
     case QQLogin = 102
+}
+
+// 分享枚举
+enum ZLShareButtonType: Int {
+    /// 微信朋友圈
+    case WeChatTimeline = 0
+    /// 微信好友
+    case WeChatSession = 1
+    /// 微博
+    case Weibo = 2
+    /// QQ 空间
+    case QZone = 3
+    /// QQ 好友
+    case QQFriends = 4
+    /// 复制链接
+    case CopyLink = 5
 }
 
 
